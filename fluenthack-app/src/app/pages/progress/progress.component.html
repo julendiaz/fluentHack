@@ -1,0 +1,7 @@
+<div class="progress-grid">
+  <app-story-progress-button
+    *ngFor="let exercise of exercises; let i = index"
+    [index]="i"
+    [completed]="exercise.completed"
+  ></app-story-progress-button>
+</div>
